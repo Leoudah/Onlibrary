@@ -1,0 +1,358 @@
+body{
+  font-family: Arial;
+  margin: 0 auto; 
+  max-width: 800px;
+  padding: 20px;
+}
+
+.error p {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+h1{
+    color: #60a3bc;
+}
+
+h1 span{
+    color: rgb(12, 248, 12);
+}
+
+h2{
+    padding-left: 2%;
+    background-color: bisque;
+}
+
+.header{
+    position: relative;
+    margin-bottom: 30px;
+}
+.header a{
+    text-decoration:none ;
+    color: inherit;
+    margin-left: 5%;
+}
+
+.header .nav a:hover{
+    background-color: orange;
+    color: inherit;
+    transition: linear 0.4s;
+    border-radius: 100px;
+}
+
+p:hover{
+    color: inherit;
+    transition: linear 0.4s;
+    border-radius: 100px;
+}
+
+p{
+    text-decoration:none ; 
+}
+
+.input-text{
+    position: relative;  
+    color: inherit;
+    float: right;
+    margin-right: 5%;
+    
+}
+
+.category{
+    border-style: solid;
+}
+
+.category p a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 30px;
+}
+.book a img{
+    height: 250px;
+    width: 150px;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollmenu a{
+    display: inline-block;
+    padding-left: 2%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imagedata{
+    padding-top: 1%;
+    text-align: center;
+}
+
+.imagedata img{
+    height: 320px;
+    width: 200px;
+    position: flex;
+}
+
+.databook{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.search-all {
+    margin-left: 5%;
+    margin-top: 5px;
+    position: relative;
+}
+
+select{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.button{
+    color: #fff;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 5px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+.button :hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    padding: 15px;
+    transition: all 0.4s ease 0s;
+}
+
+.about-book{
+    border: black;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 330px;
+    margin-left: 7px;
+    margin-bottom: 25px;
+    
+}
+
+.button-book{
+    margin-left: 50px;
+    color: #fff;
+}
+
+.data .button-book .button-read a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.data .button-book .button-bookmark a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-book .button-read{
+    background: #60a3bc;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    width: 16%;
+    text-align: center;
+    border: solid ;
+}
+
+.button-book .button-bookmark{
+    background: #60a3bc;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 90px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    width: 25%;
+    text-align: center;
+    border: solid ;
+
+    
+}
+
+.button-book :hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    transition: all 0.4s ease 0s;
+}
+
+
+button {
+  border: 0;
+  background: transparent;
+  font-size: 1.5em;
+  margin-bottom: 100px;
+  padding: 0;
+  float: right;
+}
+
+button:hover,
+button:hover + button,
+button:hover + button + button,
+button:hover + button + button + button,
+button:hover + button + button + button + button {
+  color: #faa;
+}
+
+.pustaka{
+    border: solid;
+    word-spacing: 20px;
+    padding: 25px 10px 25px 10px;
+    position:relative;
+}
+
+.pustaka a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.pustaka a:hover{
+    transition: all 0.5s ease 0s;
+    font-size: 20px;
+    color: #60a3bc;
+}
+  .emoji-sad {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #4d4d4d;
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top: 10%;
+  }
+  
+  .face {
+    width: inherit;
+    height: inherit;
+  }
+  
+  .eyebrow-left {
+    position: absolute;
+    height: 20px;
+    width: 24px;
+    left: 27px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    border-top-color: rgb(255, 255, 255);
+    top: 25px;
+  }
+  
+  .eyebrow-right {
+    position: absolute;
+    height: 20px;
+    width: 24px;
+    right: 27px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    border-top-color: rgb(255, 255, 255);
+    top: 25px;
+  }
+  
+  .eye-left {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    background: rgb(255, 255, 255);
+    left: 33px;
+    top: 40px;
+    border-radius: 50%;
+  }
+  
+  .eye-right {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    background: rgb(255, 255, 255);
+    right: 33px;
+    top: 40px;
+    border-radius: 50%;
+  }
+  
+  .mouth-sad {
+    position: absolute;
+    width: 78px;
+    height: 80px;
+    border: 6px solid transparent;
+    top: 70px;
+    left: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top-color: rgb(255, 255, 255);
+  }
+
+  .contact-bg{
+    background: rgb(139, 139, 139);
+    padding-bottom: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.contact{
+    float: right;
+    padding: 1%;
+}
+
+.contact p{
+    color: white;
+    line-height: 0.5;
+    margin-bottom: 5%;
+}
+.contact h3{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5%;
+    
+}
+
+.sosial{
+    padding: 1%;
+    float: left;
+}
+
+.sosial a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.fa {
+    padding: 10px;
+    border-radius: 100px;
+    font-size: 30px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+.about {
+    display: block;
+    padding: 1% ;
+    margin-right: 50%;
+    margin-left: 20%;
+}
